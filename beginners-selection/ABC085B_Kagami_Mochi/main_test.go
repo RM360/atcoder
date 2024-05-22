@@ -18,33 +18,24 @@ func getTests() []testValue {
 	testValues := []testValue{
 		testValue{
 			[]string{
-				"4",
-				"10",
-				"8",
-				"8",
-				"6",
+				"9 45000",
 			},
-			"3"},
+			"4 0 5"},
 		testValue{
 			[]string{
-				"3",
-				"15",
-				"15",
-				"15",
+				"20 196000",
 			},
-			"1"},
+			"-1 -1 -1"},
 		testValue{
 			[]string{
-				"7",
-				"50",
-				"30",
-				"50",
-				"100",
-				"50",
-				"80",
-				"30",
+				"1000 1234000",
 			},
-			"4"},
+			"14 27 959"},
+		testValue{
+			[]string{
+				"2000 20000000",
+			},
+			"2000 0 0"},
 	}
 
 	return testValues

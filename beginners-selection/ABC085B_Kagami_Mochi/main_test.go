@@ -16,7 +16,7 @@ type testValue struct {
 
 func getTests() []testValue {
 	testValues := []testValue{
-		testValue{
+		{
 			[]string{
 				"4",
 				"10",
@@ -25,7 +25,7 @@ func getTests() []testValue {
 				"6",
 			},
 			"3"},
-		testValue{
+		{
 			[]string{
 				"3",
 				"15",
@@ -33,7 +33,7 @@ func getTests() []testValue {
 				"15",
 			},
 			"1"},
-		testValue{
+		{
 			[]string{
 				"7",
 				"50",

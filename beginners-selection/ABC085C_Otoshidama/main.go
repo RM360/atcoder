@@ -7,7 +7,6 @@ import (
 // 回答を見た
 // https://atcoder.jp/contests/abs/tasks/abc085_c/editorial
 func main() {
-
 	var N, Y int
 	fmt.Scanf("%d %d", &N, &Y)
 

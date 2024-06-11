@@ -16,23 +16,23 @@ type testValue struct {
 
 func getTests() []testValue {
 	testValues := []testValue{
-		testValue{
+		{
 			[]string{
 				"9 45000",
 			},
 			"4 0 5"},
-		testValue{
+		{
 			[]string{
 				"20 196000",
 			},
 			"-1 -1 -1"},
-		testValue{
+		{
 			[]string{
 				"1000 1234000",
 			},
 			// "14 27 959"},
 			"26 0 974"},
-		testValue{
+		{
 			[]string{
 				"2000 20000000",
 			},
